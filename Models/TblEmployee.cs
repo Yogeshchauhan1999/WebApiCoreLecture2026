@@ -27,5 +27,7 @@ namespace WebApiCoreLecture.Models
 
         [NotMapped]
         public string Designation { get; set;}
+
+        public int EmployeeID { get; set; }
     }
 }
