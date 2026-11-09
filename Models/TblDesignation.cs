@@ -9,5 +9,7 @@ namespace WebApiCoreLecture.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Designation {  get; set; }
+
+        public DateTime CreatedDate { get; set; }=DateTime.Now;
     }
 }
